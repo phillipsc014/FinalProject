@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Final_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4.5" translatesAutoresizingMaskIntoConstraints="NO" id="oCA-p7-Ox3">
+                                <rect key="frame" x="76.333333333333343" y="340" width="277.33333333333326" height="277.33333333333326"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4.5" translatesAutoresizingMaskIntoConstraints="NO" id="VoD-Nx-ajX">
+                                        <rect key="frame" x="0.0" y="0.0" width="277.33333333333331" height="89.333333333333329"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eEC-Yn-zyW">
+                                                <rect key="frame" x="0.0" y="0.0" width="89.333333333333329" height="89.333333333333329"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="X">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.66666666666666663" green="0.098039215686274508" blue="0.098039215686274508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="65" name="Optima-Bold"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <action selector="tapSquare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w2h-qO-9kQ"/>
+                                                </connections>
+                                            </button>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SNM-dD-dAb">
+                                                <rect key="frame" x="94.000000000000028" y="0.0" width="89.333333333333343" height="89.333333333333329"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="O">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.21568627450980393" green="0.33333333333333331" blue="0.62745098039215685" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="65" name="Optima-Bold"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <action selector="tapSquare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6P3-93-vP4"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jCU-BO-9Jt">
+                                                <rect key="frame" x="188" y="0.0" width="89.333333333333314" height="89.333333333333329"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="X">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.62745098039215685" green="0.098039215686274508" blue="0.098039215686274508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="65" name="Optima-Bold"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <action selector="tapSquare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EIr-Jb-bk2"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4.5" translatesAutoresizingMaskIntoConstraints="NO" id="eWO-BD-MoA">
+                                        <rect key="frame" x="0.0" y="94" width="277.33333333333331" height="89.333333333333314"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r4r-v6-fUt">
+                                                <rect key="frame" x="0.0" y="0.0" width="89.333333333333329" height="89.333333333333329"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="X">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.66666666666666663" green="0.098039215686274508" blue="0.098039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="65" name="Optima-Bold"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <action selector="tapSquare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HAt-HK-EP8"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WYq-ts-PCA">
+                                                <rect key="frame" x="94.000000000000028" y="0.0" width="89.333333333333343" height="89.333333333333329"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="X">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.62745098039215685" green="0.098039215686274508" blue="0.098039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="65" name="Optima-Bold"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <action selector="tapSquare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XSv-Ib-hXz"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KYL-8m-mmM">
+                                                <rect key="frame" x="188" y="0.0" width="89.333333333333314" height="89.333333333333329"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="X">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.62745098039215685" green="0.098039215686274508" blue="0.098039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="65" name="Optima-Bold"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <action selector="tapSquare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dZU-2z-orm"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4.5" translatesAutoresizingMaskIntoConstraints="NO" id="tbP-ka-uBj">
+                                        <rect key="frame" x="0.0" y="188" width="277.33333333333331" height="89.333333333333314"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sj4-1h-gG5">
+                                                <rect key="frame" x="0.0" y="0.0" width="89.333333333333329" height="89.333333333333329"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="X">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.68627450980392157" green="0.098039215686274508" blue="0.098039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="65" name="Optima-Bold"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <action selector="tapSquare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1bt-gf-OMR"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iae-BG-skM">
+                                                <rect key="frame" x="94.000000000000028" y="0.0" width="89.333333333333343" height="89.333333333333329"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="X">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.62745098039215685" green="0.098039215686274508" blue="0.098039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="65" name="Optima-Bold"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <action selector="tapSquare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Arg-A1-tdT"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="trv-Yg-uRg">
+                                                <rect key="frame" x="188" y="0.0" width="89.333333333333314" height="89.333333333333329"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="X">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.62745098039215685" green="0.098039215686274508" blue="0.098039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="65" name="Optima-Bold"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <action selector="tapSquare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g7U-kb-Rrt"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="oCA-p7-Ox3" secondAttribute="height" multiplier="1:1" id="Oyg-JD-bkE"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X Wins" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="asR-f5-HUe">
+                                <rect key="frame" x="20" y="160" width="195" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="195" id="byL-At-u2F"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="30"/>
+                                <color key="textColor" systemColor="viewFlipsideBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="2" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O Wins" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i8B-tK-EfG">
+                                <rect key="frame" x="215" y="160" width="195" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="195" id="UKN-oK-O7G"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="30"/>
+                                <color key="textColor" systemColor="viewFlipsideBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="2" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WinNum" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Thc-o7-hOf">
+                                <rect key="frame" x="20" y="212" width="195" height="31"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="25"/>
+                                <color key="textColor" red="0.68627450980392157" green="0.098039215686274508" blue="0.098039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="2" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LossNum" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lWL-tu-4uI">
+                                <rect key="frame" x="215" y="212" width="195" height="31"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="25"/>
+                                <color key="textColor" red="0.21568627450980393" green="0.33333333333333331" blue="0.70588235294117641" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="2" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tic-Tac-Toe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CEt-th-VGf">
+                                <rect key="frame" x="95.666666666666671" y="81" width="238.66666666666663" height="58.333333333333343"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="238.66666666666663" id="VcU-jK-hUs"/>
+                                    <constraint firstAttribute="width" secondItem="CEt-th-VGf" secondAttribute="height" multiplier="237:58" id="Zqb-RR-bc1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="48"/>
+                                <color key="textColor" systemColor="viewFlipsideBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="2" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O Turn" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bjv-qg-nKs">
+                                <rect key="frame" x="215" y="736" width="195" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="195" id="93S-Ee-6pJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="30"/>
+                                <color key="textColor" red="0.21568627450980393" green="0.33333333333333331" blue="0.70588235294117641" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="2" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X Turn" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n7O-hg-DkS">
+                                <rect key="frame" x="20" y="736" width="195" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="195" id="JWI-NG-hr5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="30"/>
+                                <color key="textColor" red="0.68627450980392157" green="0.098039215686274508" blue="0.098039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" systemColor="viewFlipsideBackgroundColor"/>
+                                <size key="shadowOffset" width="2" height="1"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                        <constraints>
+                            <constraint firstItem="i8B-tK-EfG" firstAttribute="centerX" secondItem="lWL-tu-4uI" secondAttribute="centerX" id="7ul-pJ-0po"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="n7O-hg-DkS" secondAttribute="bottom" constant="125" id="A94-Ds-rvV"/>
+                            <constraint firstItem="i8B-tK-EfG" firstAttribute="top" secondItem="CEt-th-VGf" secondAttribute="bottom" constant="20.670000000000002" id="B0t-Ho-Zot"/>
+                            <constraint firstItem="n7O-hg-DkS" firstAttribute="centerX" secondItem="Thc-o7-hOf" secondAttribute="centerX" id="LkQ-9y-Enx"/>
+                            <constraint firstItem="lWL-tu-4uI" firstAttribute="centerY" secondItem="Thc-o7-hOf" secondAttribute="centerY" id="Luz-zG-OGe"/>
+                            <constraint firstItem="CEt-th-VGf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="Tak-nc-mGG"/>
+                            <constraint firstItem="oCA-p7-Ox3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bli-pF-Gwy"/>
+                            <constraint firstItem="i8B-tK-EfG" firstAttribute="centerY" secondItem="asR-f5-HUe" secondAttribute="centerY" id="bpG-Z1-8zW"/>
+                            <constraint firstItem="Thc-o7-hOf" firstAttribute="top" secondItem="asR-f5-HUe" secondAttribute="bottom" constant="15" id="dJc-hk-4LN"/>
+                            <constraint firstItem="asR-f5-HUe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="iQL-5l-MPj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bjv-qg-nKs" secondAttribute="bottom" constant="125" id="kvO-DX-beZ"/>
+                            <constraint firstItem="CEt-th-VGf" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="m1O-et-iaN"/>
+                            <constraint firstItem="i8B-tK-EfG" firstAttribute="width" secondItem="lWL-tu-4uI" secondAttribute="width" id="mbq-ls-s4i"/>
+                            <constraint firstItem="asR-f5-HUe" firstAttribute="width" secondItem="Thc-o7-hOf" secondAttribute="width" id="mq3-NL-cM2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="i8B-tK-EfG" secondAttribute="trailing" constant="20" id="nW2-pU-CwY"/>
+                            <constraint firstItem="oCA-p7-Ox3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="12.666666666666629" id="q2H-bi-G7K"/>
+                            <constraint firstItem="bjv-qg-nKs" firstAttribute="centerX" secondItem="lWL-tu-4uI" secondAttribute="centerX" id="qpL-Us-eG2"/>
+                            <constraint firstItem="asR-f5-HUe" firstAttribute="centerX" secondItem="Thc-o7-hOf" secondAttribute="centerX" id="vA9-qo-kFU"/>
+                        </constraints>
+                        <connections>
+                            <outlet property="lossNumLabel" destination="lWL-tu-4uI" id="kX9-35-1Nl"/>
+                            <outlet property="winNumLabel" destination="Thc-o7-hOf" id="o3e-zQ-dDS"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="lossNumLabel" destination="lWL-tu-4uI" id="S1Q-JQ-KMS"/>
+                        <outlet property="oTurnLabel" destination="bjv-qg-nKs" id="CCA-Cq-sRh"/>
+                        <outlet property="space1" destination="eEC-Yn-zyW" id="dyx-gF-LrH"/>
+                        <outlet property="space2" destination="SNM-dD-dAb" id="T9a-Dn-ra1"/>
+                        <outlet property="space3" destination="jCU-BO-9Jt" id="Bit-dD-AWh"/>
+                        <outlet property="space4" destination="r4r-v6-fUt" id="8pR-LF-4YS"/>
+                        <outlet property="space5" destination="WYq-ts-PCA" id="bcf-BQ-7YE"/>
+                        <outlet property="space6" destination="KYL-8m-mmM" id="eGx-6Y-cKf"/>
+                        <outlet property="space7" destination="Sj4-1h-gG5" id="HN6-BT-Cc6"/>
+                        <outlet property="space8" destination="Iae-BG-skM" id="gGZ-5v-wt9"/>
+                        <outlet property="space9" destination="trv-Yg-uRg" id="GyN-hw-jtb"/>
+                        <outlet property="winNumLabel" destination="Thc-o7-hOf" id="iK3-PY-qpd"/>
+                        <outlet property="xTurnLabel" destination="n7O-hg-DkS" id="6Fd-L3-EsO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.093023255813954" y="-27.682403433476395"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemGray5Color">
+            <color red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="viewFlipsideBackgroundColor">
+            <color red="0.12156862745098039" green="0.12941176470588237" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
